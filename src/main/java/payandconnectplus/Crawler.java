@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Crawler {
     private WebDriver driver;
-    private String studentNumber;
-    private String password;
+    private final String studentNumber;
+    private final String password;
 
     public Crawler(String studentNumber , String password){
 
