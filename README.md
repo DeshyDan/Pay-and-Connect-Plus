@@ -1,7 +1,22 @@
-# Pay and Connect Plus
+# Pay and Connect Plus (ARCHIVED)
+**Important: This project has been archived.**
 
-## About 
 
-At the University of Cape Town, students who live in certain on-campus housing can ask for special vouchers to buy food at the school. They can request these vouchers between 9:00 PM the night before you want them and 9:00 AM on the day you want them.
+## Project Archived
 
-One problem I have is that I often forget to ask for these vouchers when I need them. To solve this, I use Pay and Connect Plus. It helps me automatically ask for vouchers on the days I want them.
+This project is no longer actively maintained, as I have found a better solution to the problem it was designed to solve. I recommend that you transition to the new solution, which offers improved features and performance.
+
+### Why I am Archiving?
+
+
+I decided to archive this project because I found a more efficient and reliable way to automate the request of vouchers for food at the University of Cape Town. Instead of using a webdriver with Selenium to interact with the website and solve the reCAPTCHA challenge with Azure Text to Speech, I discovered that I could use the API request that the website sends with my authorization token to issue myself a voucher.
+This way, I can avoid the hassle of dealing with reCAPTCHA and reduce the risk of errors or delays in the process. I also save time and resources by using a simpler and faster method. 
+Therefore, I no longer need to work on this project and I can archive it for future reference.
+
+### Transition to the New Solution
+
+To continue viewing my solution, please visit the [Comming soon](https://github.com/DeshyDan) for the latest updates and documentation.
+
+## Deprecated Notice
+
+This project is deprecated and will not receive any further updates, bug fixes, or support. Please use the new solution for any future work.
