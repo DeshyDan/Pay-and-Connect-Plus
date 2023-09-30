@@ -22,17 +22,21 @@ public class Crawler {
     private final String studentNumber;
     private final String password;
     private final WebDriver driver;
-
+    private WebDriverWait wait;
     public Crawler(String studentNumber, String password) {
 
         this.driver = new ChromeDriver();
         this.studentNumber = studentNumber;
         this.password = password;
+        this.wait = new WebDriverWait(driver , Duration.ofSeconds(30));
         driver.get("https://app.payandconnect.co.za/login");
     }
 
     public void run() {
         signIn();
+// navigate to the voucher page
+        wait.until( )
+        requestVoucher();
     }
 
     private void signIn() {
@@ -96,6 +100,15 @@ public class Crawler {
         driver.switchTo().defaultContent();
         var submitButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("wpforms-submit-3347")));
         submitButton.click();
+
+    }
+
+    private void requestVoucher(){
+        var requestButtonClassNames = By.cssSelector("MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall jss286 css-1shrfnk");
+        wait.until(ExceptionConditions.elementToBeClickable(requestButtonClassNames));
+        WebElement requestButton = driver.findElement(requestButtonClassNames);
+
+        requestButton.click();
 
     }
 }
