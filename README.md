@@ -15,7 +15,7 @@ Therefore, I no longer need to work on this project and I can archive it for fut
 
 ### Transition to the New Solution
 
-To continue viewing my solution, please visit the [Comming soon](https://github.com/DeshyDan) for the latest updates and documentation.
+To continue viewing my solution, please visit the [Pay and connect plus plus]([https://github.com/DeshyDan](https://github.com/DeshyDan/Pay-and-Connect-Plus-Plus)/) for the latest updates and documentation.
 
 ## Deprecated Notice
 
