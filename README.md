@@ -1,6 +1,8 @@
 # Pay and Connect Plus (ARCHIVED)
 **Important: This project has been archived.**
+### Transition to the New Solution
 
+To continue viewing my solution, please visit the [Pay and connect plus plus](https://github.com/DeshyDan/Pay-and-Connect-Plus-Plus) for the latest updates and documentation.
 
 ## Project Archived
 
@@ -13,9 +15,6 @@ I decided to archive this project because I found a more efficient and reliable 
 This way, I can avoid the hassle of dealing with reCAPTCHA and reduce the risk of errors or delays in the process. I also save time and resources by using a simpler and faster method. 
 Therefore, I no longer need to work on this project and I can archive it for future reference.
 
-### Transition to the New Solution
-
-To continue viewing my solution, please visit the [Pay and connect plus plus](https://github.com/DeshyDan/Pay-and-Connect-Plus-Plus) for the latest updates and documentation.
 
 ## Deprecated Notice
 
